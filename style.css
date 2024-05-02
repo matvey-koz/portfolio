@@ -1,4 +1,50 @@
 body {
     text-align: center;
     font-family: Jaro;
+    background-color: #e6d396;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+h1 {
+    font-family: 'Jaro', sans-serif;
+    font-size: 48px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+p {
+    font-family: 'Jaro', sans-serif;
+    font-size: 24px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    margin: 0 10px;
+    padding: 5px 10px;
+    font-family: 'Jaro', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: #555;
 }
