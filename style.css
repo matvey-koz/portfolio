@@ -28,8 +28,3 @@ button:hover {
     border: 2px solid rgb(209, 209, 209);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
-.slide-2 {
-    scale: 0;
-    display: none;
-}
